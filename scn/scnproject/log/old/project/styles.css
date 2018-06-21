@@ -1,0 +1,302 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	background-color: #3d5afe;
+	padding: 0 0;
+	font-size: 1.2em;
+	position: relative;
+	min-height: 55px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a {
+	color: white;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+	color: #adadad;
+}
+#home {
+	background: url(./img/background.png) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}#home2 {
+	background: url(./img/test.jpg) no-repeat center center fixed;
+	display: table;
+	height: 25%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+#homeupdate {
+	background: url(./img/white.png) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+marquee {
+	color: red;
+}
+#icon {
+    max-width: 200px;
+    margin: 1% auto;
+}
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: 10%;
+	color: #EEE;
+	font-weight: bold;
+}
+.landing-text h1 {
+	font-sizee: 500%;
+	font-weight: 700;
+	color: white;
+	font-family: 'Sofia';font-size: 22px;
+}
+.landing-text h6 {
+	font-weight: bold;
+}
+.landing-text span {
+	font-size: 30px;
+}
+.landing-text span:hover {
+	border-bottom: 2px solid #3d5afe;
+}
+.padding {
+	padding: 80px 0;
+}
+.padding img {
+	width: 100%
+}
+#fixed {
+	background: url(./img/background1.png) no-repeat center center fixed;
+	display: table;
+	height: 75%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+footer {
+	width: 100%;
+	background-color: #fff;
+	padding: 5% 5% -2% 5%;
+	color: #adadad;
+}
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+
+}
+.test {
+	  background: #f9f9f9;
+}
+.navbar-right {
+    float: right!important;
+    margin-right: 190px;
+}
+.styled {
+	font-family: 'SignPainter', Helvetica, sans-serif;
+}
+#tools {
+	color: red;
+	position: absolute;
+	left: 371px;
+	display: table-cell;
+}
+.col-sm-4 a{
+	color: #adadad;
+	border-bottom: 1px solid #eee;
+}
+
+
+
+
+
+
+
+
+
+.inloggen {
+	background: url(./img/background.png) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+@media (max-width: 1150px) {
+	.fa.fa-wrench {
+		font-size: 20px;
+	}
+	.fa.fa-car {
+		font-size: 20px;
+	}
+	.fa.fa-fighter-jet {
+		font-size: 20px;
+	}
+	.fa.fa-code {
+		font-size: 20px;
+	}
+	.fa.fa-eye {
+		font-size: 20px;
+	}
+	.fa.fa-volume-up {
+		font-size: 20px;
+	}
+	.fa.fa-photo {
+		font-size: 20px;
+	}
+	.fa.fa-minus-circle {
+		font-size: 20px;
+	}
+	.fa.fa-users {
+		font-size: 20px;
+	}
+}
+@media (max-width: 853px) {
+	.fa.fa-wrench {
+		font-size: 10px;
+	}
+	.fa.fa-car {
+		font-size: 10px;
+	}
+	.fa.fa-fighter-jet {
+		font-size: 10px;
+	}
+	.fa.fa-code {
+		font-size: 10px;
+	}
+	.fa.fa-eye {
+		font-size: 10px;
+	}
+	.fa.fa-volume-up {
+		font-size: 10px;
+	}
+	.fa.fa-photo {
+		font-size: 10px;
+	}
+	.fa.fa-minus-circle {
+		font-size: 10px;
+	}
+	.fa.fa-users {
+		font-size: 10px;
+	}
+}
+@media (max-width: 620px) {
+	.fa.fa-wrench {
+		font-size: 5px;
+	}
+	.fa.fa-car {
+		font-size: 5px;
+	}
+	.fa.fa-fighter-jet {
+		font-size: 5px;
+	}
+	.fa.fa-code {
+		font-size: 5px;
+	}
+	.fa.fa-eye {
+		font-size: 5px;
+	}
+	.fa.fa-volume-up {
+		font-size: 5px;
+	}
+	.fa.fa-photo {
+		font-size: 5px;
+	}
+	.fa.fa-minus-circle {
+		font-size: 5px;
+	}
+	.fa.fa-users {
+		font-size: 5px;
+	}
+}
+
+
+
+
+
+
+#loginbox {
+    margin-top: 30px;
+}
+
+#loginbox > div:first-child {        
+    padding-bottom: 10px;    
+}
+
+.iconmelon {
+    display: block;
+    margin: auto;
+}
+
+#form > div {
+    margin-bottom: 25px;
+}
+
+#form > div:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.panel {    
+    background-color: transparent;
+}
+
+.panel-body {
+    padding-top: 30px;
+    background-color: rgba(2555,255,255,.3);
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;                        
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
+.iconmelon,
+.im {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: block;
+  fill: #525151;
+}
+
+.iconmelon:after,
+.im:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+

@@ -1,0 +1,159 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #e3ecec;
+}
+.container{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+}
+header{
+  background:#0485c5;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  font-family: Arial;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #titel span:hover{
+  float:left;
+  color:white;
+}
+
+header #titel h1{
+  margin:0;
+  position: absolute;
+  left: 17.5%;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#015f8e;
+  font-weight:bold;
+}
+
+header a:hover{
+  color: #015f8e;
+  font-weight:bold;
+}
+ul{
+  margin:0;
+  padding:0;
+  position: absolute;
+  right: 16.8%
+}
+i.home {
+	background: url;
+}
+#panel {
+	background:#015F8e;
+	height: 50px;
+	min-width: 1024px;
+}
+.wrapper {
+	width: 984px;
+    margin: 0 auto;
+    padding: 0 20px;
+    min-width: 984px;
+}
+.news {
+    padding: 0;
+    margin: 0;
+    width: 492px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    color: red;
+    font-weight: bold;
+}
+.news p{
+	top: 9.5%;
+    left: 32.5%;
+    position: absolute;
+    color:white;
+    padding: 0;
+    margin: 0;
+}
+.news.marquee {
+	color: red;
+}
+.usersection {
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-align: right;
+    width: 492px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}
+.loginbutton a:link, .loginbutton a:visited {
+	padding: 5px 8px;
+    margin-left: 10px;
+    color: #FFF;
+    transition: all 0.5s ease;
+    background: #34495e;
+    text-decoration: none;
+}
+.loginbutton a:hover {
+	color: white;
+	background: #0485c5;
+}
+.registerbutton a:link, .registerbutton a:visited {
+    padding: 5px 8px;
+    margin-left: 10px;
+    color: #FFF;
+    transition: all 0.5s ease;
+    background: #5ea700;
+    text-decoration: none;
+}
+.registerbutton a:hover {
+	color: white;
+	background: #00ff00;
+}
+#balk1 {
+	background: #0485c5;
+    width: 984px;
+    color: #FFF;
+    overflow: hidden;
+    margin: auto;
+    padding: 0;
+    border: 1px none;
+    height: 44px;
+    min-width: 984px;
+    font-family: 'Exo 2',sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    }
+#balk1 p{
+	position: relative;
+	top: 1%;
+    left: 0.2%;
+}
+#balk1 a{
+	text-decoration: none;
+	color: white;
+}
+.loginlogo {
+	background: url("/img/login.png") no-repeat fixed center; 
+}
